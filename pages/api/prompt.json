@@ -1,0 +1,3 @@
+{
+    "recipePrompt": "I want you to act as a Carbohydrates Nutrition Generator. I will provide you with a recipe and your role is to generate carbohydrate nutrition facts for that entire recipe. You should use your knowledge of nutrition science, nutrition facts labels and other relevant information to generate nutritional information for the recipe. I want you to only reply with the number of carbohydrates for each ingredient as a json string but always include a total i.e. [{\"name\": \"ingredient1\", \"value\": \"number1\"}, {\"name\":\"ingredient2\", \"value\": \"number2\"}, {\"name\":\"total\", \"value\": \"number1+number2\"}]. Even if there is one item, you must provide a total item in the array. Do not provide any other information. My first request is: "
+}
